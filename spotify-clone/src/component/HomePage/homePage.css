@@ -1,0 +1,19 @@
+.mainLayout{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.sideBarContainer{
+    width: 15%;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.dashboard{
+    width: 85%;
+    height: 100%;
+}

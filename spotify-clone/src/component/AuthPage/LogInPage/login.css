@@ -1,0 +1,111 @@
+.authPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.flex-rows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.flex-rows>h2{
+    margin-left: 5px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.flex-rows>span{
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.logo-boxs{
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #CCC7CC;
+}
+
+.logo-icon{
+    font-size: 3px;
+    padding: 0 1px;
+    text-align: center;
+    border-radius: 50%;
+    border : 0.5px solid black;
+}
+
+.auth-content{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-content>h4{
+    font-weight: bolder;
+}
+
+.login-btn{
+    font-size: 16px;
+    font-weight: bolder;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.fb-login{
+    background-color: #023e8a;
+    color: #fff;
+}
+
+.apple-login{
+    background-color: black;
+    color: #fff;
+}
+
+.google-login,.phone-login{
+    font-size: 22px;
+    color: #5A575A;
+    background-color: #fff;
+    border: 1px solid #5A575A
+}
+
+.login{
+    background-color: #38b000;
+}
+
+.login-btn>span{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.bar{
+    width: 180px;
+    border: 0.5px solid #CEC4CE
+}
+
+.barFull{
+    width: 100%;
+    border: 0.5px solid #CEC4CE  
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form>span{
+    margin-bottom: 10px;
+}

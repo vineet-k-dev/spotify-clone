@@ -1,0 +1,50 @@
+.header{
+    height: 10%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E0E0F;
+}
+
+.page-toggle{
+    margin-left: 40px;
+    font-size: 25px;
+    color: #A6A6AF;
+}
+
+.signUp-signIn{
+    margin-right: 15px;
+    display: flex;
+}
+
+.page-toggle svg:first-child{
+    padding-right: 40px;
+}
+
+.transparent-button{
+    color: #A6A6AF;
+    background-color: transparent;
+    transition: font-size 5s;
+}
+
+.transparent-button:hover{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+.color-button{
+    margin-left: 10px;
+    background-color: #fff;
+    transition: width height 5s;
+}
+
+.color-button:hover{
+    cursor: pointer;
+    margin-left: 5px;
+    width:105px;
+    height: 42px;
+    font-size: 16px;
+}
